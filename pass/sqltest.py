@@ -36,11 +36,8 @@ while True:
     if checkval == 1:
         valout()
 
-    
-    
     # print(c.fetchone())
-
-
+    
     conn.commit()
 
     conn.close()
